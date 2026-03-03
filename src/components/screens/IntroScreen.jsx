@@ -25,7 +25,7 @@ export default function IntroScreen({ onNext }) {
             filter: "drop-shadow(0 0 20px rgba(255,105,180,0.4))",
         }}
     >
-       “21 years ago today, the universe gifted the world you — and someday, it gifted you to me.”
+       “21 years ago today, the universe gifted the world you — and in the past year, it gifted you to me.”
     </h1>
 
     <p className="mt-4 text-foreground will-change-transform">
