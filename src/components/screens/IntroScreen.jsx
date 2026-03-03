@@ -18,16 +18,22 @@ export default function IntroScreen({ onNext }) {
                 />
             </div>
 
-            <div className="text-center">
-                <h1 className="text-2xl md:text-3xl font-semibold text-primary drop-shadow leading-tight will-change-transform"
-                    style={{
-                        filter: "drop-shadow(0 0 20px rgba(255,105,180,0.4))",
-                    }}>
-                    A Cutiepie was born today, 21 years ago!
-                </h1>
-                <p className="mt-4 text-foreground will-change-transform">Yes, it’s YOU! A little surprise awaits...</p>
-            </div>
+         <div className="text-center">
+    <h1 
+        className="text-2xl md:text-3xl font-semibold text-primary drop-shadow leading-tight will-change-transform"
+        style={{
+            filter: "drop-shadow(0 0 20px rgba(255,105,180,0.4))",
+        }}
+    >
+       “21 years ago today, the universe gifted the world you — and someday, it gifted you to me.”
+    </h1>
 
+    <p className="mt-4 text-foreground will-change-transform">
+    Yes, it’s YOU. 💖 Now you’re 21… though sometimes you still behave like one 🤭
+</p>
+
+   
+</div>
             <div
                 className="mt-4">
                 <Button
