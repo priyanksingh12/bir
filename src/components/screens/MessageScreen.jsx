@@ -27,7 +27,7 @@ export default function MessageScreen() {
                 <div className={`cover ${opened ? "opacity-0" : "opacity-100"} pointer-events-none z-10 bg-[#ffedea]!`} />
 
                 <div className="relative px-6 h-56 overflow-y-auto text-foreground">
-                   Happy Birthday, Cutiepie! 🎂
+                   Happy Birthday,Baby!🎂
 
 You know the first time I saw you, the sunlight was coming from the window and it was falling on your hair and honestly it was one of the most beautiful things I have seen. Like really, I just couldn't stop looking at you.
 
