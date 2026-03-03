@@ -37,7 +37,7 @@ export default function PhotosScreen({ onNext }) {
             effect="fade"
             modules={[EffectFade, Autoplay]}
             autoplay={{ delay: 3000, disableOnInteraction: false }}
-            className="w-53.75 h-70 md:w-59.25 md:h-77.5"
+            className="w-60 h-90 md:w-59.25 md:h-77.5"
           >
             {photos.map((src, i) => (
               <SwiperSlide key={i}>
