@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fdf7ff;
-  --foreground: #77537e;
-  --primary: #973b88;
-  --secondary: #9b3c49;
-  --accent: #594ba0;
+  --background: linear-gradient(
+    135deg,
+    #ffdde1,
+    #ee9ca7
+  );
 }
 
 @theme inline {
@@ -252,4 +252,13 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+  min-height: 100vh;
 }
